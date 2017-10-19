@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\chapter_1.component.ts" />
+    <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_1\objective_1_1.component.ts" />
     <None Remove="ClientApp\app\components\exams\70-480\exam-70-480.component.ts" />
     <None Remove="ClientApp\app\components\exams\exam-component.module.ts" />
     <None Remove="ClientApp\app\components\exams\exam-component.shared.ts" />
@@ -30,6 +31,7 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\chapter_1.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_1\objective_1_1.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_2\chapter_2.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\exam-70-480.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\exam-component.module.ts" />
@@ -43,7 +45,6 @@
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_4\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_3\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_2\" />
-    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_1\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_2\objective_2_5\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_2\objective_2_4\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_2\objective_2_3\" />
@@ -53,7 +54,12 @@
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_3\objective_3_3\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_3\objective_3_2\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_3\objective_3_1\" />
-    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_4\" />
+    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_4\objective_4_6\" />
+    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_4\objective_4_5\" />
+    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_4\objective_4_4\" />
+    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_4\objective_4_3\" />
+    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_4\objective_4_2\" />
+    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_4\objective_4_1\" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">

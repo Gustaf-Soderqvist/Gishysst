@@ -1,10 +1,10 @@
 ﻿import { Component } from '@angular/core';
 
 @Component({
-    selector: 'exam-70-480.component',
+    selector: 'exam-70-480',
     templateUrl: './exam-70-480.component.html',
-    //styleUrls: ['./app.component.css']
+    styleUrls: ['./exam-70-480.component.css']
 })
-export class Exam70480Component {
+export class Exam_70_480_Component {
 
 }
