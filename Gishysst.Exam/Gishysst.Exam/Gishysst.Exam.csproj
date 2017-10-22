@@ -23,6 +23,11 @@
   <ItemGroup>
     <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\chapter_1.component.ts" />
     <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_1\objective_1_1.component.ts" />
+    <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_2\objective_1_2.component.ts" />
+    <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_3\objective_1_3.component.ts" />
+    <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_4\objective_1_4.component.ts" />
+    <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_5\objective_1_5.component.ts" />
+    <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_6\objective_1_6.component.ts" />
     <None Remove="ClientApp\app\components\exams\70-480\exam-70-480.component.ts" />
     <None Remove="ClientApp\app\components\exams\exam-component.module.ts" />
     <None Remove="ClientApp\app\components\exams\exam-component.shared.ts" />
@@ -32,6 +37,11 @@
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\chapter_1.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_1\objective_1_1.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_2\objective_1_2.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_3\objective_1_3.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_4\objective_1_4.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_5\objective_1_5.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_6\objective_1_6.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_2\chapter_2.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\exam-70-480.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\exam-component.module.ts" />
@@ -40,11 +50,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_6\" />
-    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_5\" />
-    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_4\" />
-    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_3\" />
-    <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_2\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_2\objective_2_5\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_2\objective_2_4\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_2\objective_2_3\" />

@@ -3,7 +3,7 @@
 @Component({
     selector: 'exam-component',
     templateUrl: './exam-component.html',
-    //styleUrls: ['./app.component.css']
+    styleUrls: ['./exam-component.css']
 })
 export class ExamComponent {
 }

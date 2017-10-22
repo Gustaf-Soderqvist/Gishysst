@@ -11,6 +11,7 @@ import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { ExamComponent } from './components/exams/exam-component';
 import { Exam_70_480_Component } from './components/exams/70-480/exam-70-480.component';
+import { Chapter_1_Component } from './components/exams/70-480/chapters/chapter_1/chapter_1.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { Exam_70_480_Component } from './components/exams/70-480/exam-70-480.com
         FetchDataComponent,
         HomeComponent,
         ExamComponent,
-        Exam_70_480_Component
+        Exam_70_480_Component,
+        Chapter_1_Component
     ],
     imports: [
         CommonModule,
@@ -32,7 +34,14 @@ import { Exam_70_480_Component } from './components/exams/70-480/exam-70-480.com
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
             { path: 'exam', component: ExamComponent },
-            { path: 'exam-70-480', component: Exam_70_480_Component },
+            {
+                path: 'exam-70-480',
+                component: Exam_70_480_Component,
+                children: [
+                    { path: '', redirectTo: 'exam-70-480', pathMatch: 'full' },
+                    { path: 'chapter1', component: Chapter_1_Component },
+                ]
+            },
             { path: '**', redirectTo: 'home' }
         ])
     ]
