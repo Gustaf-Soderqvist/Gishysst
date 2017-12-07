@@ -1,10 +1,47 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+﻿<hr/>
+<div class="well">
+    <p>This objective covers how to: </p>
+    <ul>
+        <li>Add or modify HTML elements</li>
+        <li>Implement media controls</li>
+        <li>Implement graphics with HTML5 canvas and SVG</li>
+    </ul>
+</div>
 
-</body>
-</html>
+<div id="outerDiv">
+    <p class="mainPara">Main Paragraph</p>
+    <ul>
+        <li>First list Item</li>
+        <li>Second list Item</li>
+        <li>Third list Item</li>
+        <li>Fourth list Item</li>
+    </ul>
+    <div id="innerDiv">
+        <p class="subPara" id="P1">Paragraph 1</p>
+        <p class="subPara" id="P2">Paragraph 2</p>
+        <p class="subPara" id="P3">Paragraph 3</p>
+        <p class="subPara" id="P4">Paragraph 4</p>
+        <br />
+        <button type="button" class="btn btn-default btn-sm" (click)="showAllParagraphs();">
+            Show all paragraphs
+        </button>
+        <button type="button" class="btn btn-default btn-sm" (click)="findAllParagraphs();">
+            Find all paragraphs
+        </button>
+    </div>
+    <br />
+</div>
+
+<br />
+<h3><span class="label label-info">Show video in HTML5</span></h3>
+<div>
+    <p>
+        <button type="button" class="btn btn-default btn-lg" (click)="isCollapsedVideo = !isCollapsedVideo"
+                [attr.aria-expanded]="isCollapsedVideo" aria-controls="collapseVideo">
+            Show video
+        </button>
+    </p>
+    <div id="collapseVideo" [ngbCollapse]="!isCollapsedVideo">
+        <objective_1_2_video></objective_1_2_video>
+    </div>
+</div>

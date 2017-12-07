@@ -1,4 +1,4 @@
-﻿<div class="container-fluid">
+﻿<div>
     <header>
         <h1 class="text-center">Exam 70-480</h1>
         <p class="text-center">Programming in HTML5 with JavaScript and CSS3</p>
@@ -6,9 +6,9 @@
     <div class="row">
         <div class="col-lg-12">
             <ul class="nav nav-pills">
-                <li role="presentation"><a [routerLink]="['./chapter1']">Chapter 1 </a></li>
-                <li role="presentation"><a [routerLink]="['./chapter1']">Chapter 2 </a></li>
-                <li role="presentation"><a [routerLink]="['./chapter1']">Chapter 3 </a></li>
+                <li [routerLinkActive]="['link-active']" role="presentation"><a [routerLink]="['./chapter1']">Chapter 1 </a></li>
+                <li [routerLinkActive]="['link-active']" role="presentation"><a [routerLink]="['./chapter1']">Chapter 2 </a></li>
+                <li [routerLinkActive]="['link-active']" role="presentation"><a [routerLink]="['./chapter1']">Chapter 3 </a></li>
             </ul>
         </div>
     </div>

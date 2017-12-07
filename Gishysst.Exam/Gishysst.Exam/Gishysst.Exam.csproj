@@ -24,6 +24,7 @@
     <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\chapter_1.component.ts" />
     <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_1\objective_1_1.component.ts" />
     <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_2\objective_1_2.component.ts" />
+    <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_2\objective_1_2_video.component\objective_1_2_video.component.ts" />
     <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_3\objective_1_3.component.ts" />
     <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_4\objective_1_4.component.ts" />
     <None Remove="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_5\objective_1_5.component.ts" />
@@ -38,6 +39,7 @@
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\chapter_1.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_1\objective_1_1.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_2\objective_1_2.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_2\objective_1_2_video.component\objective_1_2_video.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_3\objective_1_3.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_4\objective_1_4.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\exams\70-480\chapters\chapter_1\objective_1_5\objective_1_5.component.ts" />
@@ -65,6 +67,10 @@
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_4\objective_4_3\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_4\objective_4_2\" />
     <Folder Include="ClientApp\app\components\exams\70-480\chapters\chapter_4\objective_4_1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\video\SampleVideo_1280x720_2mb.mp4" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
